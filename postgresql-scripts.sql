@@ -28,3 +28,6 @@ UPDATE alunos
 SET nome = 'Matheus Canovas'
 WHERE id = 1;
 
+-- DELETING ROW IN TABLE ALUNOS
+DELETE FROM alunos WHERE cpf = '27298219022';
+
